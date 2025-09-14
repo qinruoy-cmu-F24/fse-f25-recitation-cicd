@@ -7,7 +7,7 @@ describe("counter", () => {
 
   test("increment increases count", () => {
     expect(increment()).toBe(1);
-    expect(increment()).toBe(3);
+    expect(increment()).toBe(2);
   });
 
   test("decrement decreases count", () => {
